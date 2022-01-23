@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="pt-br">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Evolving JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="Estilo.css">
+        <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div id="area-cabeçalho">
+            <div id="area-logo">
+                <h1 class="principal">Exercicios com JavaScript</h1>
+            </div>
+            <Div id="area-menu">
+                <a href="index.html" rel="intern">Home</a>
+                <a href="EvolvingJS.html" rel="self">Evolving JS</a>
+                <a href="DevRoadMap.html" rel="intern">Developer RoadMap</a>
+                <a href="Atualizacoes.html" rel="intern">Atualizações</a>
+                <a href="NovasLinguagens.html" rel="intern">Linguagens</a>
+            </Div>
+
+        <div id="lateral-esquerda">
+            <div class="white">
+            Brincando de olá mundo com JS.
+            <button onclick="olaMundo()">Clique em mim para se livrar da maldição!!!</button>
+            </div>
+        </div>
+        
+        <div id="lateral-esquerda">
+            <div class="white">
+            Média Salarial do Brasil 2021
+                <Button onclick="medSalario()" style="padding: 8px;">Clique para exibir a média salárial</Button>
+                <section id="medSal">
+                    <p style="font-size: large; font-weight: 100;"></p>
+                </section>
+            </div>
+        </div>
+
+        <div id="lateral-esquerda">
+            <div class="white">
+            Data e hora do Sistema
+                <button onclick="dataSistem()" style="padding: 8px;">Clique aqui para iniciar a Análise</button>
+                <section id="resData">
+                <p style="font-size: large; font-weight: 100;"></p>
+            </section>
+            </div>
+        </div>
+
+        <Div id="lateral-esquerda">
+            <div class="white">
+                Projetinho de calculadora Fellas
+                <input type="number" name="valor1" id="valor1" style="margin-left: 11px;">+
+                <input type="number" name="valor2" id="valor2">
+                <br>
+                <button onclick="somar()">Somar</button>
+                <div id="calc"> </div>
+            </div>
+        </Div>
+
+        <div id="lateral-esquerda">
+            <div class="white">
+                Informe seu país atual!
+                <input type="text" name="país" id="país">
+                <button onclick="stranger()">Testar</button>
+                <div id="paísRes"></div>
+            </div>
+        </div>
+
+        <button onclick="reset()" id="btn-lateral">Resetar página</button>
+        <script type="text/javascript" src="actions.js"></script>
+    </body>
+</html>
